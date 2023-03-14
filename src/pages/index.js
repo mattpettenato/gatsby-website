@@ -24,6 +24,7 @@ const IndexPage = () => (
         </li>
       </ul>
       <Link to="/page-2">Go to page 2</Link>
+      <Link to="/page-3">Go to page 3</Link>
     </Layout>
   )
 
