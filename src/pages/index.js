@@ -18,7 +18,9 @@ const IndexPage = () => (
         <li><a className="button" href="https://www.linkedin.com/in/matt-pettenato-936236123/" target="_blank" rel="noreferrer">
           <i className="fab fa-angellist"></i> AngelList</a></li>
         <li>
-          <a className="button" href="/resume.pdf" download>Here's my resume</a>
+          {/* <a className="button" href="/resume.pdf" download>Here's my resume</a> */}
+          <a href="https://raw.githubusercontent.com/mattpettenato/gatsby-website/main/resume/Matt-Pettenato-Resume.pdf" download>Download Resume</a>
+
         </li>
       </ul>
       <Link to="/page-2">Go to page 2</Link>
