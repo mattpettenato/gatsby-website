@@ -20,11 +20,12 @@ const IndexPage = () => (
         <li>
           {/* <a className="button" href="/resume.pdf" download>Here's my resume</a> */}
           <a href="https://raw.githubusercontent.com/mattpettenato/gatsby-website/main/resume/Matt-Pettenato-Resume.pdf" download>Download Resume</a>
-
         </li>
       </ul>
       <Link to="/page-2">Go to page 2</Link>
+      <br />
       <Link to="/page-3">Go to page 3</Link>
+      {/* <Link to="/page-3">Go to page 3</Link> */}
     </Layout>
   )
 
